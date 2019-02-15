@@ -1,2 +1,2 @@
 This project is for pattern prectice.
-This is new add in master.
+A new line added.
