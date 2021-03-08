@@ -20,7 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-package com.iluwatar.builder;
+package headfirst.designpatterns.builder;
 
 /**
  * 
@@ -111,9 +111,7 @@ public final class Hero {
     private Armor armor;
     private Weapon weapon;
 
-    /**
-     * Constructor
-     */
+
     public Builder(Profession profession, String name) {
       if (profession == null || name == null) {
         throw new IllegalArgumentException("profession and name can not be null");
