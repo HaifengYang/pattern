@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3a8369-f6eb-4594-9666-093b73fbc7d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/CurrentConditionsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/Display.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/ForecastDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/StatisticsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/WeatheStation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/Armor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/Armor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/HairColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/HairColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/HairType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/HairType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/Profession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/Profession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/builder/Weapon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -27,7 +35,9 @@
     <option name="height" value="1000" />
   </component>
   <component name="ProjectId" id="1pTkKYvsgYaZE9Sp4lbGF3yduWf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -105,7 +115,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="headfirst.designpatterns.observer" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
     <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="headfirst.designpatterns.strategy.MiniDuckSimulator" />
       <module name="Head-First-Design-Patterns-master" />
@@ -119,8 +134,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst.designpatterns.observer.Test" />
+      <module name="Head-First-Design-Patterns-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headfirst.designpatterns.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.MiniDuckSimulator" />
       </list>
     </recent_temporary>
