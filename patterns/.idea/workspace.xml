@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3a8369-f6eb-4594-9666-093b73fbc7d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/CurrentConditionsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/ForecastDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/observer/WeatheStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/decorate/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/decorate/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/decorate/Espresso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/decorate/HouseBlend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/decorate/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/decorate/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/decorate/Whip.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,16 +116,30 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="headfirst.designpatterns.decorate" />
       <recent name="headfirst.designpatterns.observer" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="MiniDuckSimulator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="headfirst.designpatterns.strategy.MiniDuckSimulator" />
       <module name="Head-First-Design-Patterns-master" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="headfirst.designpatterns.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst.designpatterns.decorate.Test" />
+      <module name="Head-First-Design-Patterns-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headfirst.designpatterns.decorate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,6 +162,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.MiniDuckSimulator" />
       </list>
