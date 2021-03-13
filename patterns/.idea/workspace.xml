@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3a8369-f6eb-4594-9666-093b73fbc7d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/PizzaTestDrive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/facotry/NYPizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/facotry/PizzaIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/cheese/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/cheese/GoatCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/cheese/MozzarellaCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/cheese/ReggianoCheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/clams/Clams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/clams/FreshClams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/clams/FrozenClams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/dough/Dough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/dough/ThickCrustDough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/dough/ThinCrustDough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/pepperoni/Pepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/pepperoni/SlicedPepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/sauce/BruschettaSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/sauce/MarinaraSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/sauce/PlumTomatoSauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/sauce/Sauce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/veggie/Garlic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/veggie/Mushroom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/veggie/Onion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/veggie/RedPepper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/ingredients/ingredent/veggie/Veggies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStyleClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStylePepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStyleVeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStyleCheesePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStyleClamPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStylePepperoniPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStyleVeggiePizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/store/ChicagoPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/store/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/store/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/singleton/EagerSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/singleton/LazySingleton.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,15 +110,15 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="headfirst.designpatterns.factory.ingredients.facotry" />
       <recent name="headfirst.designpatterns.factory.ingredients.ingredent.veggie" />
       <recent name="headfirst.designpatterns.factory.ingredients.ingredent.sauce" />
       <recent name="headfirst.designpatterns.factory.ingredients.ingredent.dough" />
       <recent name="headfirst.designpatterns.factory.ingredients.ingredent.cheese" />
-      <recent name="headfirst.designpatterns.factory.pizza" />
     </key>
   </component>
   <component name="RunManager" selected="Application.PizzaTestDrive">
