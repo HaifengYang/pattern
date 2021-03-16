@@ -15,7 +15,7 @@ public abstract class Pizza {
     Cheese cheese;
     Pepperoni pepperoni;
     Clams clam;
-    abstract void prepare();
+    public abstract void prepare();
     public void bake(){
         System.out.println("Bake 25 minutes at 350");
     }
