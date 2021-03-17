@@ -2,29 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3a8369-f6eb-4594-9666-093b73fbc7d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/controller/SimpleRemoteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/entity/GarageDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/entity/Light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/entity/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/impl/GarageDoorCloseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/impl/GarageDoorOpenCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/impl/LightOffCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/impl/LightOnCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/impl/TVCloseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/impl/TVOpenCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/interfaces/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/command/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/adapter/adapter/DuckAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/adapter/entity/MallardDuck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/adapter/entity/WildTurkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/adapter/interfaces/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/adapter/interfaces/Turkey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/adapter/test/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStyleCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStyleCheesePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStyleClamPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStyleClamPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStylePepperoniPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStylePepperoniPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStyleVeggiePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/ChicagoStyleVeggiePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStyleCheesePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStyleCheesePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStyleClamPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStyleClamPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStylePepperoniPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStylePepperoniPizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStyleVeggiePizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/NYStyleVeggiePizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/factory/pizza/Pizza.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/headfirst/designpatterns/singleton/LazySingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/headfirst/designpatterns/singleton/LazySingleton.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +125,20 @@
       <recent name="headfirst.designpatterns.factory.ingredients.ingredent.dough" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="headfirst.designpatterns.adapter.test.Test" />
+      <module name="Head-First-Design-Patterns-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="headfirst.designpatterns.adapter.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="headfirst.designpatterns.command.test.Test" />
       <module name="Head-First-Design-Patterns-master" />
@@ -157,6 +154,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
