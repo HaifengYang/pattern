@@ -1,5 +1,8 @@
 package headfirst.designpatterns.iterator.entity;
 
+import headfirst.designpatterns.iterator.iterators.interfaces.Iterator;
+import headfirst.designpatterns.iterator.iterators.interfaces.PancakeHouseMenuIterator;
+
 import java.util.ArrayList;
 
 public class PancakeHouseMenu {
@@ -33,5 +36,9 @@ public class PancakeHouseMenu {
 
     public ArrayList getMenuItems() {
         return menuItems;
+    }
+
+    public Iterator createIterator(){
+        return new PancakeHouseMenuIterator(this);
     }
 }

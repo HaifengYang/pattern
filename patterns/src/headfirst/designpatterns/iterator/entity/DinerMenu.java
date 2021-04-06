@@ -1,5 +1,8 @@
 package headfirst.designpatterns.iterator.entity;
 
+import headfirst.designpatterns.iterator.iterators.interfaces.DinerMenuIterator;
+import headfirst.designpatterns.iterator.iterators.interfaces.Iterator;
+
 public class DinerMenu {
     static final int MAX_ITEMS = 4;
     int numberOfItems = 0;
@@ -33,5 +36,8 @@ public class DinerMenu {
     public MenuItem[] getMenuItems() {
         return menuItems;
     }
-    // other menu methods here
+
+    public Iterator createIterator(){
+        return new DinerMenuIterator(this);
+    }
 }
